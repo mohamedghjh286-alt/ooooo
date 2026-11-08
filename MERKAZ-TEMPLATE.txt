@@ -1,0 +1,38 @@
+# قالب إضافة محتوى سنة جديدة — انسخ الملف واملأ البيانات ثم احفظه بامتداد .txt
+# كل الملفات TXT توضع بجانب ملفات المشروع في المجلد الرئيسي.
+[MERKAZ]
+version=1
+title=اسم مجموعة المحتوى
+system=azhar
+# القيم المقترحة للنظام: azhar / general / baccalaureate
+grade=third-secondary
+track=scientific
+year=2026-2027
+language=ar
+
+[LAW]
+id=unique-law-id
+subject=physics
+category=mechanics
+title=اسم القانون
+# اكتب المعادلة بصيغة نصية أو LaTeX بين $...$
+equation=$v = d/t$
+explanation<<
+اكتب شرح القانون هنا، ووضح متى يستخدم.
+>>
+symbols<<
+v | السرعة | m/s
+d | المسافة | m
+t | الزمن | s
+>>
+units<<
+السرعة: متر لكل ثانية
+المسافة: متر
+الزمن: ثانية
+>>
+example<<
+مثال محلول توضيحي: إذا قطعت مركبة 100 متر خلال 20 ثانية، فالسرعة المتوسطة = 5 متر/ثانية.
+>>
+common_mistakes<<
+- الخلط بين وحدات المسافة والزمن.
+>>
